@@ -79,7 +79,6 @@ button{
 button:hover{
     background-color: rgb(240, 215, 183);
     color: white;
-    margin-left: 35%;
 }
 @media screen and (max-width: 430px) {
    
@@ -91,7 +90,19 @@ button:hover{
         margin-right: 200px;
         overflow: hidden;
         margin-left: 35px !important;}
-        
+    
+    span{
+        font-size: 12px !important;
+    }
+    p{
+        margin: 0;
+    }
+    .img{
+        border-radius: 0 0 10px 10px;
+    }
+    .container1{
+        border-radius: 10px 10px 0 0;
+    }
      
 
         
