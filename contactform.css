@@ -86,10 +86,11 @@ button:hover{
         flex-direction: column;
         display: flex;
         width: 80vw;
-        align-content: center;
-        margin-right: 200px;
+        align-content: center !important;
         overflow: hidden;
-        margin-left: 35px !important;}
+        margin-left: 8.5% !important;
+    
+    }
     
     span{
         font-size: 12px !important;
