@@ -35,19 +35,20 @@
                 </p>
              </div>
         </div>
-        <form method="post">
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="3088792d-d1a5-4f26-b554-5d905cee5abc">
             
                 <div>
-                    <input type="text" placeholder="     Name">
+                    <input type="text" placeholder="     Name" id="name" name="name" required>
                 </div>
                 <div>
-                    <input type="email" placeholder="    Gmail">
+                    <input type="email" placeholder="    Gmail" id="email" name="email" required>
                 </div>
                 <div>
-                    <input type="text" placeholder="     Subject">
+                    <input type="text" placeholder="     Subject" id="subject" name="subject" required>
                 </div>
                 <div>
-                    <textarea placeholder="  Write a message"></textarea>
+                    <textarea placeholder="  Write a message" id="message" name="message" required></textarea>
                 </div>
                 <div class="button">
                     <button>Submit</button>
@@ -60,7 +61,7 @@
         <div class="img">
             <img src="img.jpg" height="530px">
         </div>
-</div>
+    </div>
     <script src="contactform.js"></script>
     
 </body>
